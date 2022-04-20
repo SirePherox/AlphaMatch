@@ -94,6 +94,7 @@ public sealed class Board : MonoBehaviour
         tile2.Item = tile1Item;
     }
 
+	//abstraction
     private bool CanPop()
     {
         for(var y = 0; y < heigth; y++)
